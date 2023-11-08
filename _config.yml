@@ -11,50 +11,30 @@ permalink: /:year/:month/:day/:title/
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
       type: "posts"
     values:
       layout: "post"
 
 projects:
   sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
   limit: 9
   exclude:
     archived: false
     forks: true
-    projects:
-    # - repo-name
 
- social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
+social_media:
   linkedin: https://www.linkedin.com/in/austin-tran-57624a284/
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
 
 topics:
   - name: Machine Learning
-    #web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: Database Development
-   image_url: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.trisotech.com%2Fbpmn-database-operations-with-odata%2F&psig=AOvVaw0nmNRxn8FaLwaxzWYYjTkw&ust=1699491805749000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCBwLias4IDFQAAAAAdAAAAABAE
+    image_url: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.trisotech.com%2Fbpmn-database-operations-with-odata%2F&psig=AOvVaw0nmNRxn8FaLwaxzWYYjTkw&ust=1699491805749000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCBwLias4IDFQAAAAAdAAAAABAE
+
   - name: Data Mining
-  image_url: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zuar.com%2Fblog%2Fdata-mining-for-marketing-8-practical-examples%2F&psig=AOvVaw2CFvcZYxxoe20IZemd5VDj&ust=1699491838765000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNi2oMias4IDFQAAAAAdAAAAABAK
+    image_url: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zuar.com%2Fblog%2Fdata-mining-for-marketing-8-practical-examples%2F&psig=AOvVaw2CFvcZYxxoe20IZemd5VDj&ust=1699491838765000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNi2oMias4IDFQAAAAAdAAAAABAK
 
   - name: Artificial Intelligence
     image_url: https://www.google.com/url?sa=i&url=https%3A%2F%2Fincubator.ucf.edu%2Fwhat-is-artificial-intelligence-ai-and-why-people-should-learn-about-it%2F&psig=AOvVaw1q-T7rIIJMvZ99bfkIpreh&ust=1699491734499000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIDWxpaas4IDFQAAAAAdAAAAABAE
